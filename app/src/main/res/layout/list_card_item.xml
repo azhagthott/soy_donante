@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewItem"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:layout_marginBottom="2dp"
+    android:layout_marginTop="2dp"
+    app:cardCornerRadius="1dp"
+    app:cardElevation="2dp">
+
+    <RelativeLayout
+        android:id="@+id/cardRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="?android:attr/selectableItemBackgroundBorderless">
+
+        <ImageView
+            android:id="@+id/cardImageView"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dummy"
+            android:transitionName="postDetail" />
+
+        <TextView
+            android:id="@+id/cardTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/cardImageView"
+            android:padding="4dp"
+            android:text="@string/cv_title_dummy"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/cardContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardTitleTextView"
+            android:padding="4dp"
+            android:text="@string/cv_content_dummy"
+            android:textColor="@color/gray_500" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

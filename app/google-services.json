@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1036934171083",
+    "firebase_url": "https://soy-donante-android.firebaseio.com",
+    "project_id": "soy-donante-android",
+    "storage_bucket": "soy-donante-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036934171083:android:e18d2fbf08d1b206",
+        "android_client_info": {
+          "package_name": "com.android.fbarrios80.soydonante"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036934171083-ubcck4hvv3lf2t7tm14131o5k43thjha.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.fbarrios80.soydonante",
+            "certificate_hash": "6ba92750fee9fb9b51c7b0f21a46649cad9d2599"
+          }
+        },
+        {
+          "client_id": "1036934171083-e9hqsnm2d3s0jejr963efdlbov7ec36f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbONOfGgrXTGXlwsmFuToNm6Ad4bfz7Yg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036934171083-e9hqsnm2d3s0jejr963efdlbov7ec36f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

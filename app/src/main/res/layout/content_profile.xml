@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profileRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.android.fbarrios80.soydonante.view.profile.ProfileActivity"
+    tools:showIn="@layout/activity_profile">
+
+    <FrameLayout
+        android:id="@+id/root_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:visibility="invisible" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileCircleImageView"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:elevation="2dp"
+        android:padding="8dp"
+        android:src="@drawable/ic_person"
+        app:civ_border_color="@color/gray_400"
+        app:civ_border_width="1dp" />
+
+    <TextView
+        android:id="@+id/nameLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/profileCircleImageView"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/profile_lbl_name"
+        android:textColor="@color/gray_400" />
+
+    <TextView
+        android:id="@+id/displayNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/nameLabel"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/nameLabel"
+        android:layout_marginStart="16dp"
+        android:padding="4dp"
+        android:text="@string/profile_display_name_dummy"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/emailLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/displayNameTextView"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/profile_lbl_email"
+        android:textColor="@color/gray_400" />
+
+    <TextView
+        android:id="@+id/userEmailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/emailLabel"
+        android:layout_alignStart="@+id/emailLabel"
+        android:layout_below="@+id/emailLabel"
+        android:padding="4dp"
+        android:text="@string/profile_email_dummy"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/genderLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/userEmailTextView"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/profile_lbl_gender"
+        android:textColor="@color/gray_400" />
+
+    <TextView
+        android:id="@+id/genderTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/genderLabel"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:padding="4dp"
+        android:text=""
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/bloodTypeLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/genderTextView"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/profile_lbl_blood_type"
+        android:textColor="@color/gray_400" />
+
+    <TextView
+        android:id="@+id/bloodTypeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bloodTypeLabel"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:padding="4dp"
+        android:text=""
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/weightLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bloodTypeTextView"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/profile_lbl_weight"
+        android:textColor="@color/gray_400" />
+
+    <TextView
+        android:id="@+id/weightTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/weightLabel"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:padding="4dp"
+        android:text=""
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/signInButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/profile_btn_sign_in"
+        android:visibility="gone" />
+
+</RelativeLayout>

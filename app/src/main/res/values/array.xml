@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="gender">
+        <item>Femenino</item>
+        <item>Masculino</item>
+        <item>Otro</item>
+        <item>Dejar en blanco</item>
+    </string-array>
+
+    <string-array name="blood_type">
+        <item>RH+</item>
+        <item>tipo2</item>
+        <item>tipo3</item>
+        <item>tipo4</item>
+        <item>tipo5</item>
+    </string-array>
+
+</resources>
